@@ -97,7 +97,7 @@ if __name__ == "__main__":
             speak(f"it is {strTime} according to my clock")
 
         elif 'open code' in query:
-            codePath = "C:\\Users\\Haris\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            codePath = "C:\\Users\\SUNNY\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(codePath)
 
         elif 'open pycharm' in query:
@@ -108,7 +108,7 @@ if __name__ == "__main__":
             break
 
         elif 'close my assistant' in query:
-            speak("it was nice helping you sir")
+            speak("always a pleasure working with you sir")
             hour = int(datetime.datetime.now().hour)
             if hour>18 and hour<6:
                 speak("good night")
