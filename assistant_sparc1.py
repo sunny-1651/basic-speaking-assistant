@@ -32,6 +32,9 @@ def wishMe():
         speak("susandhya")
     else:
         speak("namaste")
+    
+    speak("sir i am Jarvis junior junior")
+    speak("how can i help you")
 
 
 def takeCommand():
